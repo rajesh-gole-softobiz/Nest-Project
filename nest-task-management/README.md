@@ -13,3 +13,10 @@
 
 ### exports :
 `Array of providers to export to other modules`
+
+------------
+## NestJS Controllers
+
+`Responsible for handling incoming request and returing response to the client`
+`Bound to a specific path (for example, "/tasks" for the task resource).`
+`Contain handlers, which handle endpoints and request methods(GET, POST, DELETE etc)`

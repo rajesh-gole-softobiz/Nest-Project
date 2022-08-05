@@ -44,3 +44,7 @@
 
 ### Creating a Task Controller
 `> nest g co tasks --no-spec`
+
+### Creating a Task Service
+`> nest g service tasks --no-spec`
+

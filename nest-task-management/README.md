@@ -20,3 +20,14 @@
 `Responsible for handling incoming request and returing response to the client`
 `Bound to a specific path (for example, "/tasks" for the task resource).`
 `Contain handlers, which handle endpoints and request methods(GET, POST, DELETE etc)`
+
+
+
+
+
+
+### Creating a Task Module
+`> nest g mo tasks `
+
+### Creating a Task Controller
+`> nest g co tasks --no-spec`

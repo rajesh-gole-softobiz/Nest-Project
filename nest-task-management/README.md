@@ -22,7 +22,20 @@
 `Contain handlers, which handle endpoints and request methods(GET, POST, DELETE etc)`
 
 
+## NestJS Providers
 
+`Can be injected into constructors if decorated as an@Injectable, via dependency injection`
+
+`Can be plain value, a class, sync/async factory etc`
+
+`Providers must be provided to a module for them to be usable`
+
+`Can be exported from a module - and then be available to other modules that import it`
+
+## What is a Service?
+
+`Defined as providers. Not all providersare services.`
+`A service will be called from a controller to validate data, create an item in the database and return a response`
 
 
 

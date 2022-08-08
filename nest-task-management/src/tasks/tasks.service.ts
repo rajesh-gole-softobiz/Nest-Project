@@ -18,6 +18,12 @@ export class TasksService {
         })
     }
 
+    deleteTask(id: string): void{
+        this.tasks= this.tasks.filter((task)=>{
+            return task.id !=id;
+        })
+    }
+
     createTask(createTaskDto: CreateTaskDto): Task{
         const {title, description} = createTaskDto;
 

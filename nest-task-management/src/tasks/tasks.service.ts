@@ -24,6 +24,13 @@ export class TasksService {
         })
     }
 
+    updateTaskStatus(id: string, status: TaskStatus){
+        const task = this.getTaskById(id);
+        task.status = status;
+        return task;
+        }
+    
+
     createTask(createTaskDto: CreateTaskDto): Task{
         const {title, description} = createTaskDto;
 

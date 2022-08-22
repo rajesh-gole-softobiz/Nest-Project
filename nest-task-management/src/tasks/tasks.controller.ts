@@ -22,10 +22,10 @@ export class TasksController {
         
     }
 
-    // @Delete('/:id')
-    // deleteTask(@Param('id') id:string): Promise<void> {
-    //     return this.tasksService.deleteTask(id);
-    // }
+    @Delete('/:id')
+    deleteTask(@Param('id') id:string): Promise<void> {
+        return this.tasksService.deleteTask(id);
+    }
 
     // @Patch('/:id/status')
     // updateTaskStatus(@Param('id') id:string, @Body() updateTaskStatusDto: UpdateTaskStatusDto): Task{
